@@ -22,9 +22,9 @@ if ($(".wrapAll").hasClass("servicesTemplate")) {
 }
 
 // Adding class to footer if the page have no bottom CTA box
-/* if ($(".wrapAll").hasClass("servicesTemplate")) {
-  $(".footer").addClass("pTopPlus");
-} */
+if (!$(".wrapAll.contact .wrapContent section, .wrapAll.servicesTemplate .wrapContent section").hasClass("cta-block")) {
+  $(".footer").addClass("pTopLess");
+}
 
 // Put selected on the active menu link
 $(function ($) {
