@@ -1,0 +1,4 @@
+/* Impression */
+@media print {
+  .menuCss1 {
+    display: none !important; } }
