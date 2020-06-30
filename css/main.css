@@ -1200,7 +1200,7 @@ nav {
 
 .home .banner {
   max-height: 690px;
-  background: url(/images/banner-home.jpg) no-repeat center;
+  background: url(./images/banner-home.jpg) no-repeat center;
   background-size: cover;
   overflow: hidden; }
   .home .banner:before {
@@ -1361,7 +1361,7 @@ nav {
     margin-top: 0.625rem; }
 
 .home .cta .wrapper {
-  background: url(/images/bg-maison-quartier-haut.jpg) no-repeat center;
+  background: url(./images/bg-maison-quartier-haut.jpg) no-repeat center;
   background-size: cover;
   padding: 0; }
   .home .cta .wrapper:before {
@@ -1417,7 +1417,7 @@ nav {
     background: #fff; }
   .home .region .right {
     width: 39.73318%;
-    background: url(/images/deserved-region-map.jpg) no-repeat center;
+    background: url(./images/deserved-region-map.jpg) no-repeat center;
     background-size: cover; }
   .home .region .text {
     padding: 8.0847%; }
@@ -1669,16 +1669,16 @@ nav {
       background: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 62, 87, 0)), to(rgba(26, 62, 87, 0.4)));
       background: linear-gradient(180deg, rgba(26, 62, 87, 0) 0%, rgba(26, 62, 87, 0.4) 100%); }
   .tile.resi {
-    background: url(/images/residentiel-multilogement.png) no-repeat bottom right, #D3CFB8;
+    background: url(./images/residentiel-multilogement.png) no-repeat bottom right, #D3CFB8;
     background-size: contain; }
   .tile.comm {
-    background: url(/images/commercial-industriel.png) no-repeat bottom right, #D3CFB8;
+    background: url(./images/commercial-industriel.png) no-repeat bottom right, #D3CFB8;
     background-size: contain; }
   .tile.agri {
-    background: url(/images/agricole.png) no-repeat bottom right, #D3CFB8;
+    background: url(./images/agricole.png) no-repeat bottom right, #D3CFB8;
     background-size: contain; }
   .tile.allSectors {
-    background: url(/images/tous-secteurs.png) no-repeat bottom right, #D7E2EA;
+    background: url(./images/tous-secteurs.png) no-repeat bottom right, #D7E2EA;
     background-size: contain;
     padding: 8.29876% 10.37344%;
     padding-bottom: 41.45078%; }
@@ -1820,7 +1820,7 @@ nav {
   .home .intro .wrapper {
     padding-left: 2rem; }
   .home .region .right {
-    background-image: url(/images/deserved-region-map-fullWidth.jpg); }
+    background-image: url(./images/deserved-region-map-fullWidth.jpg); }
   .cta-block .wrapper {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
@@ -2200,16 +2200,16 @@ nav {
     .tile .link-text {
       font-size: 1.4375rem; }
     .tile.resi {
-      background: url(/images/residentiel-multilogement-m.png) no-repeat bottom right, #D3CFB8;
+      background: url(./images/residentiel-multilogement-m.png) no-repeat bottom right, #D3CFB8;
       background-size: contain; }
     .tile.comm {
-      background: url(/images/commercial-industriel-m.png) no-repeat bottom right, #D3CFB8;
+      background: url(./images/commercial-industriel-m.png) no-repeat bottom right, #D3CFB8;
       background-size: contain; }
     .tile.agri {
-      background: url(/images/agricole-m.png) no-repeat bottom center, #D3CFB8;
+      background: url(./images/agricole-m.png) no-repeat bottom center, #D3CFB8;
       background-size: contain; }
     .tile.allSectors {
-      background: url(/images/tous-secteurs-m.png) no-repeat bottom right, #D7E2EA;
+      background: url(./images/tous-secteurs-m.png) no-repeat bottom right, #D7E2EA;
       background-size: contain; }
   .cta-block {
     max-width: 87vw; }
@@ -2278,7 +2278,7 @@ nav {
     width: 100%; }
   .home .region .map {
     height: 19.5625rem;
-    background-image: url(/images/deserved-region-map-m.jpg); }
+    background-image: url(./images/deserved-region-map-m.jpg); }
   .home .region .btn {
     max-width: 100%; }
   .sector-info .text {
