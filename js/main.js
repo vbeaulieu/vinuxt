@@ -16,11 +16,6 @@ if (navigator.userAgent.indexOf("Edge") > -1) {
   document.getElementsByTagName("html")[0].classList.add("IEedge");
 }
 
-// Adding class to footer if this a services template page
-/* if ($(".wrapAll").hasClass("servicesTemplate")) {
-  $(".footer").addClass("pTopPlus");
-} */
-
 // Adding class to footer if the page have no bottom CTA box
 if (!$(".wrapAll:not(.home) .wrapContent section").hasClass("cta-block")) {
   $(".footer.d").addClass("pTopLess");

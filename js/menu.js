@@ -41,15 +41,11 @@ function initMenu() {
         document.querySelector(".header.m").classList.remove("open");
         document.getElementById("menuMobile").classList.remove("open");
         this.classList.remove("fa-times");
-        //this.querySelector(".fa-bars").style.display = "block";
-        //this.querySelector(".fa-times").style.display = "none";
       } else {
         this.classList.add("fa-times");
         this.classList.add("open");
         document.querySelector(".header.m").classList.add("open");
         document.getElementById("menuMobile").classList.add("open");
-        //this.querySelector(".fa-bars").style.display = "none";
-        //this.querySelector(".fa-times").style.display = "block";
       }
     });
   }
