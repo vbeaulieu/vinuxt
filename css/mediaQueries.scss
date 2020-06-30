@@ -29,7 +29,12 @@ $mobileFontSize: 16;
 	  pointer-events: none;
     white-space: nowrap; 
   }
-  
+
+  //HOME
+  .wrapAll.home ~ .footer.d.pTopLess {
+    padding-top: rem(204);
+  }
+    
 
   //SERVICES TEMPLATE
 
