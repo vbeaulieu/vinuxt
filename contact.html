@@ -18,8 +18,6 @@
   <link rel="shortcut icon" href="/images/favicon.ico" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="/js/functions.js"></script>
-  <!-- jQuery Validate -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169458105-1"></script>
   <script>
@@ -369,19 +367,21 @@
                     contacterons pour compléter la demande et vous donner un prix.</p>
                   <p><span class="note">Tous les champs sont obligatoires*</span></p>
                 </div>
-                <form action="">
+
+                <form id="contactSubmission" action="/">
+
                   <div class="form-row">
                     <div class="form-item">
                       <label for="name">
                         Nom complet*
-                        <input type="text" autocomplete="name" required>
+                        <input id="name" type="text" autocomplete="name" required>
                         <span class="error">Champ requis</span>
                       </label>
                     </div>
                     <div class="form-item">
-                      <label for="phone">
+                      <label for="mail">
                         Courriel*
-                        <input type="email" autocomplete="email" required>
+                        <input id="mail" type="email" autocomplete="email" required>
                         <span class="error">Champ requis</span>
                       </label>
                     </div>
@@ -390,7 +390,7 @@
                     <div class="form-item">
                       <label for="phone">
                         Téléphone*
-                        <input type="tel" autocomplete="tel" required>
+                        <input id="phone" type="tel" autocomplete="tel" required>
                         <span class="error">Champ requis</span>
                       </label>
                     </div>
@@ -398,7 +398,7 @@
                       <label for="region">
                         Secteur*
                         <div class="fakeSelect">
-                          <select name="region">
+                          <select id="region" name="region">
                             <option value="drummondville">Drummondville</option>
                             <option value="victoriaville">Victoriaville</option>
                           </select>
@@ -409,9 +409,9 @@
                   </div>
                   <div class="form-row fullWidth">
                     <div class="form-item">
-                      <label for="demande">
+                      <label for="request">
                         Votre demande*
-                        <textarea name="demande" rows="3" required></textarea>
+                        <textarea id="request" name="request" rows="3" required></textarea>
                         <span class="error">Champ requis</span>
                       </label>
                     </div>
@@ -421,7 +421,13 @@
                       <button type="submit" class="btn alt" onclick="gtag('event', 'Formulaire', {'event_category': 'Prise de contact','event_label': this.innerText});">Envoyer</button>
                     </div>
                   </div>
+                
                 </form>
+
+                <script type="text/javascript">
+                  $("#contactSubmission").validate();
+                </script>
+
               </div>
             </div>
             <div class="sticky-img">
@@ -440,5 +446,8 @@
   <script type="text/javascript" src="/js/include.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
   <script type="text/javascript" src="/js/menu.js"></script>
+  <!-- jQuery Validate -->
+  <script type="text/javascript" src="/js/jquery.validate.js"></script>
+  <script type="text/javascript" src="/js/messages_fr.js"></script>
 </body>
 </html>
