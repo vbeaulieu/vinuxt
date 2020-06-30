@@ -259,7 +259,7 @@ $mobileFontSize: 16;
     .region {
 
       .right {
-        background-image: url("../images/deserved-region-map-fullWidth.jpg");
+        background-image: url("./images/deserved-region-map-fullWidth.jpg");
       }
     }
   }
@@ -863,22 +863,22 @@ $mobileFontSize: 16;
     }
 
     &.resi {
-      background: url("../images/residentiel-multilogement-m.png") no-repeat bottom right, #D3CFB8;
+      background: url("./images/residentiel-multilogement-m.png") no-repeat bottom right, #D3CFB8;
       background-size: contain;
     }
 
     &.comm {
-      background: url("../images/commercial-industriel-m.png") no-repeat bottom right, #D3CFB8;
+      background: url("./images/commercial-industriel-m.png") no-repeat bottom right, #D3CFB8;
       background-size: contain;
     }
 
     &.agri {
-      background: url("../images/agricole-m.png") no-repeat bottom center, #D3CFB8;
+      background: url("./images/agricole-m.png") no-repeat bottom center, #D3CFB8;
       background-size: contain;
     }
 
     &.allSectors {
-      background: url("../images/tous-secteurs-m.png") no-repeat bottom right, #D7E2EA;
+      background: url("./images/tous-secteurs-m.png") no-repeat bottom right, #D7E2EA;
       background-size: contain;
     }
 
@@ -1021,7 +1021,7 @@ $mobileFontSize: 16;
 
       .map {
         height: rem(313);
-        background-image: url("../images/deserved-region-map-m.jpg");
+        background-image: url("./images/deserved-region-map-m.jpg");
       }
 
       .btn {
