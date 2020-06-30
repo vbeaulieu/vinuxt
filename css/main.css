@@ -1725,8 +1725,7 @@ nav {
     padding-right: 3rem;
     padding-left: 3rem; }
   .sector-teams .card {
-    width: 48%;
-    margin-bottom: 4%; }
+    width: 48%; }
     .sector-teams .card:nth-child(3n) {
       margin-right: auto; }
     .sector-teams .card:nth-child(even) {
@@ -1774,7 +1773,7 @@ nav {
   .footer .copyright {
     max-width: 100%; }
   .footer.pTopPlus {
-    padding-top: 15rem; }
+    /* padding-top: rem(240); */ }
   .grid {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr); }
@@ -1841,7 +1840,7 @@ nav {
     display: block; }
   .sector-teams .card {
     width: 100%;
-    margin-bottom: 1.875rem; }
+    margin-bottom: 2.5rem; }
     .sector-teams .card:nth-child(odd), .sector-teams .card:nth-child(odd) {
       margin-right: 0; } }
 
@@ -1916,10 +1915,7 @@ nav {
     padding: 1rem 1.125rem; }
   .btn-container {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    flex-wrap: wrap; }
     .btn-container .btn {
       width: 100%;
       margin-right: 0;
