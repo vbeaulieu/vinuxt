@@ -75,9 +75,9 @@ $(function ($) {
     },
     submitHandler: function (form) {
       if ($("#region").val() == "drummondville") {
-        form.action = "mailto:mamorin@nmedia.ca";
+        form.action = "mailto:srochefort@nmedia.ca";
       } else {
-        form.action = "mailto:morin.marcandre@hotmail.com";
+        form.action = "mailto:jlagace@nmedia.ca";
       }
 
       // Add gtag only when submit is success
