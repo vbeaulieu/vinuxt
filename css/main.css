@@ -2283,6 +2283,8 @@ nav {
     padding: 0; }
     .sector-info .text.top {
       padding-bottom: 1rem; }
+  .sector-container .logo img {
+    max-width: 80%; }
   .contact .cta-block {
     max-width: 100%;
     padding-bottom: 0;
