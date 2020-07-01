@@ -449,7 +449,7 @@ label {
   font-weight: bold; }
   label input {
     font-weight: normal; }
-  label span.error {
+  label.error {
     display: inline-block;
     color: #e10a00;
     font-size: 0.75rem;

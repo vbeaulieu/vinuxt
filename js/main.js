@@ -30,4 +30,64 @@ $(function ($) {
       $(this).parents('.parent').addClass('active');
     }
   });
+
+  // jQuery Validation form
+  $("#contactSubmission").validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 3
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      phone: {
+        required: true,
+        phoneUS: true
+      },
+      region: {
+      },
+      request: {
+        required: true,
+        minlength: 4
+      }
+    },
+    messages: {
+      name: {
+        required: "Champ requis",
+        minlength: "Votre nom complet doit contenir plus de 3 lettres."
+      },
+      email: {
+        required: "Champ requis",
+        email: "Veuillez utiliser un courriel valide."
+      },
+      phone: {
+        required: "Champ requis",
+        tel: "Veuillez utiliser un numéro de téléphone valide."
+      },
+      region: {
+      },
+      request: {
+        required: "Champ requis",
+        minlength: "Votre demande doit contenir un minimum de 3 caractères."
+      }
+    },
+    submitHandler: function (form) {
+      if ($("#region").val() == "drummondville") {
+        form.action = "mailto:mamorin@nmedia.ca";
+      } else {
+        form.action = "mailto:morin.marcandre@hotmail.com";
+      }
+
+      // Add gtag only when submit is success
+      if (typeof gtag != 'undefined') {
+        gtag('event', 'Formulaire', { 'event_category': 'Prise de contact', 'event_label': document.getElementById("submitBtn").innerText });
+      }
+
+      form.submit();
+    }
+  });
 });
+
+

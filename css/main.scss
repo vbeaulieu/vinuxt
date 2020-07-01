@@ -311,14 +311,12 @@ label {
   }
 
   //Message d'erreur
-  span {
-    &.error {
-      display: inline-block;
-      color: $error;
-      font-size: rem(12);
-      margin-top: rem(4);
-      display: none;
-    }
+  &.error {
+    display: inline-block;
+    color: $error;
+    font-size: rem(12);
+    margin-top: rem(4);
+    display: none;
   }
 }
 
