@@ -34,41 +34,41 @@ $(function ($) {
   // jQuery Validation form
   $("#contactSubmission").validate({
     rules: {
-      name: {
+      Nom: {
         required: true,
         minlength: 3
       },
-      email: {
+      Courriel: {
         required: true,
         email: true
       },
-      phone: {
+      Téléphone: {
         required: true,
         phoneUS: true
       },
-      region: {
+      Secteur: {
       },
-      request: {
+      Demande: {
         required: true,
         minlength: 4
       }
     },
     messages: {
-      name: {
+      Nom: {
         required: "Champ requis",
         minlength: "Votre nom complet doit contenir plus de 3 lettres."
       },
-      email: {
+      Courriel: {
         required: "Champ requis",
         email: "Veuillez utiliser un courriel valide."
       },
-      phone: {
+      Telephone: {
         required: "Champ requis",
         tel: "Veuillez utiliser un numéro de téléphone valide."
       },
-      region: {
+      Secteur: {
       },
-      request: {
+      Demande: {
         required: "Champ requis",
         minlength: "Votre demande doit contenir un minimum de 3 caractères."
       }
