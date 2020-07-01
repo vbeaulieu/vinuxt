@@ -42,7 +42,7 @@ $(function ($) {
         required: true,
         email: true
       },
-      Téléphone: {
+      Telephone: {
         required: true,
         phoneUS: true
       },
